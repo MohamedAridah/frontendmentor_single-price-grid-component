@@ -64,14 +64,22 @@ a {
   padding: 30px 25px;
 }
 
+@media (min-width: 767px) {
+  .card-wrapper .card-summary {
+    padding:45px 40px;
+  }
+}
+
 .card-summary h1 {
   color: var(--Cyan);
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+  font-size: 28px
 }
 
 .card-summary h2 {
   color: var(--Bright-Yellow);
   margin-bottom: 25px;
+  font-size: 20px
 }
 
 @media (min-width: 767px) {
